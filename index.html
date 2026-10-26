@@ -1,10 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My First Page</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Scratchpad</title>
+<link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1>Hello World!</h1>
-  <p>This is my scratchpad project.</p>
+  <header class="topbar">
+    <h1>📝 Scratchpad</h1>
+    <div class="actions">
+      <button id="themeBtn" ...>🌙</button>
+    </div>
+  </header>
+  <main>
+    <textarea id="pad" placeholder="Start typing..."></textarea>
+    <footer class="statusbar">
+      <span id="status">Saved</span>
+      <span id="count">0 words · 0 characters</span>
+      <div class="buttons">
+        <button id="downloadBtn">Download</button>
+        <button id="clearBtn">Clear</button>
+      </div>
+    </footer>
+  </main>
+  <script src="app.js"></script>
 </body>
 </html>
