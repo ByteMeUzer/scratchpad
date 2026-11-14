@@ -1,5 +1,5 @@
 # scratchpad
 <br>
-# scratchpad  A temporary space to test code, try new ideas, and break things without any risk. Nothing serious here, just experiments.
+# scratchpad  A temporary space to test code and try new ideas, and break things without any risk. Nothing serious here, just experiments.
 
 My new Experince.
